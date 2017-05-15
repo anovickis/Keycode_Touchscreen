@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCESS" xml:space="preserve">
+    <value>访问</value>
+  </data>
+  <data name="ACCESS_AND_CARD" xml:space="preserve">
+    <value>访问代码与信用/通行卡</value>
+  </data>
+  <data name="ACCESS_CODE" xml:space="preserve">
+    <value>访问代码</value>
+  </data>
+  <data name="ACCESS_CODE_NOT_FOUND" xml:space="preserve">
+    <value>未找到访问代码</value>
+  </data>
+  <data name="ACCESS_CODE_NO_USER" xml:space="preserve">
+    <value>无用户分配给
+此访问代码</value>
+  </data>
+  <data name="ACCESS_CODE_ONLY" xml:space="preserve">
+    <value>仅限访问代码</value>
+  </data>
+  <data name="ACCESS_METHOD" xml:space="preserve">
+    <value>访问方式</value>
+  </data>
+  <data name="ACCESS_RESTRICTIONS" xml:space="preserve">
+    <value>访问限制</value>
+  </data>
+  <data name="ACCESS_RESTRICTION_TYPE" xml:space="preserve">
+    <value>访问限制类型</value>
+  </data>
+  <data name="ADD_ANOTHER_USER" xml:space="preserve">
+    <value>添加其它用户</value>
+  </data>
+  <data name="ADD_USER" xml:space="preserve">
+    <value>添加用户</value>
+  </data>
+  <data name="ADMIN_EMAIL_ADDRESS" xml:space="preserve">
+    <value>更改管理员邮箱</value>
+  </data>
+  <data name="ADMIN_PASSWORD" xml:space="preserve">
+    <value>管理员密码</value>
+  </data>
+  <data name="ADMIN_PHONE_NUMBER" xml:space="preserve">
+    <value>服务经理号码</value>
+  </data>
+  <data name="ADMIN_TASKS" xml:space="preserve">
+    <value>管理任务</value>
+  </data>
+  <data name="ADMIN_TEXT_NUMBER" xml:space="preserve">
+    <value>更改管理员短信号</value>
+  </data>
+  <data name="AGAIN_SCAN_FINGERPRINT" xml:space="preserve">
+    <value>请再次扫描同一手
+指供登记扫描  计数</value>
+  </data>
+  <data name="ALWAYS_ON" xml:space="preserve">
+    <value>时刻在线</value>
+  </data>
+  <data name="APPLY_CHANGES" xml:space="preserve">
+    <value>应用更改</value>
+  </data>
+  <data name="ASK_TEXT_MESSAGE_1" xml:space="preserve">
+    <value>你想要</value>
+  </data>
+  <data name="ASK_TEXT_MESSAGE_2" xml:space="preserve">
+    <value>获得文本收据？</value>
+  </data>
+  <data name="BACKSPACE" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="BARCODE_SCANNING_ERROR" xml:space="preserve">
+    <value>条形码扫描错误：
+没有扫描到条形码</value>
+  </data>
+  <data name="BIKE" xml:space="preserve">
+    <value>电动车</value>
+  </data>
+  <data name="BIKE_CHOOSE" xml:space="preserve">
+    <value>请选择一个电动
+车类型</value>
+  </data>
+  <data name="BIOMETRIC_ENROLLMENT" xml:space="preserve">
+    <value>生物识别登记</value>
+  </data>
+  <data name="BOX_ACCESS" xml:space="preserve">
+    <value>设置箱子访问权限</value>
+  </data>
+  <data name="BOX_INFO" xml:space="preserve">
+    <value>察看箱子信息</value>
+  </data>
+  <data name="BOX_LOCATION_NOT_SET" xml:space="preserve">
+    <value>钥匙箱位置未设置</value>
+  </data>
+  <data name="BOX_NUMBER" xml:space="preserve">
+    <value>钥匙箱号码</value>
+  </data>
+  <data name="BOX_NUMBER_NOT_EXIST" xml:space="preserve">
+    <value>钥匙箱号码不存在</value>
+  </data>
+  <data name="BUTTON_START" xml:space="preserve">
+    <value>点击开始</value>
+  </data>
+  <data name="CABINET_BOX_ACCESS" xml:space="preserve">
+    <value>访问钥匙柜</value>
+  </data>
+  <data name="CABINET_DOOR_TRANSACTIONS" xml:space="preserve">
+    <value>柜门状态反馈</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="CANCELLED" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="CAPITALS_LOCK" xml:space="preserve">
+    <value>大写锁定</value>
+  </data>
+  <data name="CARD_NUMBER" xml:space="preserve">
+    <value>信用卡或通行卡号</value>
+  </data>
+  <data name="CARD_READ_CANCELLED" xml:space="preserve">
+    <value>读卡被取消 请重试</value>
+  </data>
+  <data name="CARD_READ_FAILED" xml:space="preserve">
+    <value>无法识别卡片 请重试</value>
+  </data>
+  <data name="CARD_READ_TIMEOUT" xml:space="preserve">
+    <value>超时 请重试</value>
+  </data>
+  <data name="CARD_SWIPE_ERROR" xml:space="preserve">
+    <value>扫描出错：请重试</value>
+  </data>
+  <data name="CHANGE_ADMIN_PWORD" xml:space="preserve">
+    <value>更改管理员密码</value>
+  </data>
+  <data name="CHANGE_PASSWORD" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="CHOOSE_IMPORT_FILE" xml:space="preserve">
+    <value>选择导入.csv 或 .xml 文件</value>
+  </data>
+  <data name="CLEAR_ENROLLED_FINGERPRINTS" xml:space="preserve">
+    <value>清除已登记指纹记录</value>
+  </data>
+  <data name="CLEAR_FINGERPRINT_QUESTION" xml:space="preserve">
+    <value>指纹与其它ID匹配. 清除
+之前指纹？</value>
+  </data>
+  <data name="CLEAR_SCAN_TABLE" xml:space="preserve">
+    <value>清空数据</value>
+  </data>
+  <data name="COMMUNICATING_WITH_SERVER" xml:space="preserve">
+    <value>正在连接服务器</value>
+  </data>
+  <data name="CONFIGURATION_APP_ERROR" xml:space="preserve">
+    <value>运行程序出错</value>
+  </data>
+  <data name="CONFIGURATION_FILE_ERROR" xml:space="preserve">
+    <value>配置文件有不可恢
+复错误</value>
+  </data>
+  <data name="CONFIGURATION_OPEN_PORT_ERROR" xml:space="preserve">
+    <value>开放接口出现不可
+恢复错误</value>
+  </data>
+  <data name="CONFIGURATION_RFID_ERROR_1" xml:space="preserve">
+    <value>配置文件RFID错误</value>
+  </data>
+  <data name="CONFIGURATION_RFID_ERROR_2" xml:space="preserve">
+    <value>警告：若不退出将出
+现其它程序错误。
+是否继续？</value>
+  </data>
+  <data name="CONFIRM" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="CONFIRM_LICENSE" xml:space="preserve">
+    <value>车牌号是否正确？</value>
+  </data>
+  <data name="CONFIRM_NAME" xml:space="preserve">
+    <value>姓名是否正确？</value>
+  </data>
+  <data name="CONTINUE" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="CREDIT_CARD_ONLY" xml:space="preserve">
+    <value>仅限信用卡</value>
+  </data>
+  <data name="CURRENT_ACCESS" xml:space="preserve">
+    <value>当前访问：</value>
+  </data>
+  <data name="DATABASE_ERROR" xml:space="preserve">
+    <value>数据库出错. 请重试或
+拨打服务电话</value>
+  </data>
+  <data name="DATA_FILE_ERRORS_NOT_EXIST" xml:space="preserve">
+    <value>数据文件出错或不存在</value>
+  </data>
+  <data name="DATA_FILE_HAS_ERRORS" xml:space="preserve">
+    <value>数据文件出错</value>
+  </data>
+  <data name="DATA_FILE_NOT_EXIST" xml:space="preserve">
+    <value>数据文件不存在</value>
+  </data>
+  <data name="DATA_LENGTH_ERROR" xml:space="preserve">
+    <value>信息长度须在</value>
+  </data>
+  <data name="DATA_LENGTH_ERROR_2" xml:space="preserve">
+    <value>字符以内</value>
+  </data>
+  <data name="DATA_UPDATE_ERROR" xml:space="preserve">
+    <value>程序更新线程出错</value>
+  </data>
+  <data name="DATA_VIEW_THREAD_ERROR" xml:space="preserve">
+    <value>程序显示线程出错</value>
+  </data>
+  <data name="DELETE_USER" xml:space="preserve">
+    <value>删除用户</value>
+  </data>
+  <data name="DEPARTMENT" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="DOOR_TIMEFRAME_BOX_ERROR" xml:space="preserve">
+    <value>钥匙箱预设操作时间
+未到. 取消开门.</value>
+  </data>
+  <data name="DOOR_TIMEFRAME_BOX_ERROR_2" xml:space="preserve">
+    <value>钥匙箱预设操作时间
+已过. 取消开门.</value>
+  </data>
+  <data name="DOOR_TIMEFRAME_USER_ERROR" xml:space="preserve">
+    <value>预设的用户操作时间
+未到.取消开门.</value>
+  </data>
+  <data name="DOOR_TIMEFRAME_USER_ERROR_2" xml:space="preserve">
+    <value>预设的用户操作时间
+已过.取消开门.</value>
+  </data>
+  <data name="DOOR_USAGES_BOX_ERROR" xml:space="preserve">
+    <value>此箱子无法再次使用. 
+取消开门.</value>
+  </data>
+  <data name="DOOR_USAGES_USER_ERROR" xml:space="preserve">
+    <value>此用户预设使用次数
+已到.取消开门.</value>
+  </data>
+  <data name="DRIVER_FIRST_NAME" xml:space="preserve">
+    <value>输入驾驶者名字
+（不含姓氏）</value>
+  </data>
+  <data name="DRIVER_LAST_NAME" xml:space="preserve">
+    <value>输入驾驶者姓氏</value>
+  </data>
+  <data name="DRIVER_NUMBER" xml:space="preserve">
+    <value>输入驾照号码</value>
+  </data>
+  <data name="EBIKE" xml:space="preserve">
+    <value>电动自行车</value>
+  </data>
+  <data name="EMAIL" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="EMAIL_ADDRESS" xml:space="preserve">
+    <value>电子邮箱地址</value>
+  </data>
+  <data name="EMAIL_ADDRESS_NOT_FORMATTED" xml:space="preserve">
+    <value>电子邮箱地址格式错误</value>
+  </data>
+  <data name="EMAIL_FAILED" xml:space="preserve">
+    <value>邮件发送失败.，
+已存储至本地，
+请联系管理员。谢谢！</value>
+  </data>
+  <data name="EMAIL_SUCCESSFUL" xml:space="preserve">
+    <value>邮件发送成功. 谢谢</value>
+  </data>
+  <data name="EMAIL_TRANSACTIONS_FAILED" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EMAIL_TRANSACTIONS_SUCCESSFUL" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EMAIL_TRANSACTION_REPORT" xml:space="preserve">
+    <value>USB交易数据导出</value>
+  </data>
+  <data name="END_DOOR_NUMBER" xml:space="preserve">
+    <value>开启多个钥匙箱，最
+后打开的钥匙箱编号</value>
+  </data>
+  <data name="END_TIME" xml:space="preserve">
+    <value>订单完成时间</value>
+  </data>
+  <data name="ENROLLED_FINGERPRINT_COUNT" xml:space="preserve">
+    <value>用户已录入指纹数</value>
+  </data>
+  <data name="ENROLL_FINGERPRINTS" xml:space="preserve">
+    <value>录入新指纹</value>
+  </data>
+  <data name="ENTER" xml:space="preserve">
+    <value>进入</value>
+  </data>
+  <data name="ENTER_ACCESS_CODE" xml:space="preserve">
+    <value>输入访问代码</value>
+  </data>
+  <data name="ENTER_BOX_NUMBER" xml:space="preserve">
+    <value>输入箱子号</value>
+  </data>
+  <data name="ENTER_CARD_NUMBER" xml:space="preserve">
+    <value>输入卡号</value>
+  </data>
+  <data name="ENTER_CODE" xml:space="preserve">
+    <value>输入需要更改的钥匙
+箱访问码</value>
+  </data>
+  <data name="ENTER_DEPARTMENT_NAME" xml:space="preserve">
+    <value>输入部门名称</value>
+  </data>
+  <data name="ENTER_DOOR_DELAY" xml:space="preserve">
+    <value>开启多个钥匙箱 - 输入
+各钥匙箱开启间隔时间</value>
+  </data>
+  <data name="ENTER_EMAIL_ADDRESS" xml:space="preserve">
+    <value>输入电子邮箱地址</value>
+  </data>
+  <data name="ENTER_END_DOOR" xml:space="preserve">
+    <value>开启多个钥匙箱，最
+后打开的钥匙箱编号</value>
+  </data>
+  <data name="ENTER_END_TIME" xml:space="preserve">
+    <value>输入结束时间</value>
+  </data>
+  <data name="ENTER_FIRST_NAME" xml:space="preserve">
+    <value>输入名字（不含姓氏）</value>
+  </data>
+  <data name="ENTER_GROUP_NAME" xml:space="preserve">
+    <value>输入群组名称</value>
+  </data>
+  <data name="ENTER_ID" xml:space="preserve">
+    <value>输入ID</value>
+  </data>
+  <data name="ENTER_LAST_NAME" xml:space="preserve">
+    <value>输入姓氏</value>
+  </data>
+  <data name="ENTER_LICENSE_NUMBER" xml:space="preserve">
+    <value>输入驾照号</value>
+  </data>
+  <data name="ENTER_LIMITED_USES" xml:space="preserve">
+    <value>进入开启次数限制</value>
+  </data>
+  <data name="ENTER_NEW_CODE" xml:space="preserve">
+    <value>输入新代码</value>
+  </data>
+  <data name="ENTER_NEW_ID" xml:space="preserve">
+    <value>输入新ID</value>
+  </data>
+  <data name="ENTER_ODOMETER_READING" xml:space="preserve">
+    <value>输入汽车里程表读数</value>
+  </data>
+  <data name="ENTER_OPERATOR_NUMBER" xml:space="preserve">
+    <value>输入操作员编号</value>
+  </data>
+  <data name="ENTER_PHONE_NUMBER" xml:space="preserve">
+    <value>输入电话号码</value>
+  </data>
+  <data name="ENTER_RFID_TAG" xml:space="preserve">
+    <value>输入RFID标签号</value>
+  </data>
+  <data name="ENTER_START_DOOR" xml:space="preserve">
+    <value>开启多个钥匙箱，首
+先打开的钥匙箱编号</value>
+  </data>
+  <data name="ENTER_START_TIME" xml:space="preserve">
+    <value>输入开始时间</value>
+  </data>
+  <data name="ENTER_USER_ID" xml:space="preserve">
+    <value>输入用户ID</value>
+  </data>
+  <data name="ENTER_USER_ID_DELETE" xml:space="preserve">
+    <value>输入要删除的用户ID</value>
+  </data>
+  <data name="ENTER_USER_ID_MODIFY" xml:space="preserve">
+    <value>输入要修改的用户ID</value>
+  </data>
+  <data name="ENTER_VEHICLE_NUMBER" xml:space="preserve">
+    <value>输入车辆号</value>
+  </data>
+  <data name="EXIT" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="FILL_OUT_MILEAGE_FORM" xml:space="preserve">
+    <value>每辆车都配有一个含
+有车辆分配里程日志
+的黄色文件夹。司机
+在每个驾驶日都须填
+写完整。</value>
+  </data>
+  <data name="FINGERPRINTS_CLEARED" xml:space="preserve">
+    <value>指纹已清除</value>
+  </data>
+  <data name="FINGERPRINT_FAILED" xml:space="preserve">
+    <value>指纹匹配失败</value>
+  </data>
+  <data name="FINGERPRINT_MATCHED" xml:space="preserve">
+    <value>指纹匹配成功</value>
+  </data>
+  <data name="FIRST_NAME" xml:space="preserve">
+    <value>名字（不含姓氏）</value>
+  </data>
+  <data name="GROUP" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="HIDDEN_EXIT_KEYPAD_MESSAGE" xml:space="preserve">
+    <value>输入管理
+员代码退
+出程序</value>
+  </data>
+  <data name="ID_BIOMETRIC_ENROLLING" xml:space="preserve">
+    <value>输入用户ID做生物
+登记</value>
+  </data>
+  <data name="ID_NUMBER" xml:space="preserve">
+    <value>ID号</value>
+  </data>
+  <data name="ID_NUM_NOT_UNIQUE" xml:space="preserve">
+    <value>ID号已存在</value>
+  </data>
+  <data name="ID_SCANNER_ERROR" xml:space="preserve">
+    <value>ID扫描设备出错</value>
+  </data>
+  <data name="ID_SCAN_CONFIRMED" xml:space="preserve">
+    <value>ID已扫描 请移开证件</value>
+  </data>
+  <data name="ID_SCAN_TIMED_OUT" xml:space="preserve">
+    <value>ID扫描超时</value>
+  </data>
+  <data name="IMPORTING" xml:space="preserve">
+    <value>正在导入…</value>
+  </data>
+  <data name="IMPORT_COMPLETE" xml:space="preserve">
+    <value>导入完成 弹出USB设备</value>
+  </data>
+  <data name="IMPORT_QUESTION" xml:space="preserve">
+    <value>导入访问代码还是
+用户数据？</value>
+  </data>
+  <data name="INFORMATION" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="INSERT_USB_DRIVE" xml:space="preserve">
+    <value>插入USB驱动器</value>
+  </data>
+  <data name="INVALID_ACCESS_TYPE" xml:space="preserve">
+    <value>无效访问类型</value>
+  </data>
+  <data name="INVALID_BOX_NUMBER" xml:space="preserve">
+    <value>无效箱子号 请重试</value>
+  </data>
+  <data name="INVALID_LOCATION" xml:space="preserve">
+    <value>无效地址 请重试</value>
+  </data>
+  <data name="INVALID_PASSWORD" xml:space="preserve">
+    <value>无效密码</value>
+  </data>
+  <data name="INVALID_TIME" xml:space="preserve">
+    <value>无效时间或日期</value>
+  </data>
+  <data name="LAST_NAME" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="LIMITED_NUMBER_OF_USES" xml:space="preserve">
+    <value>使用次数限制</value>
+  </data>
+  <data name="LIMITED_USES" xml:space="preserve">
+    <value>使用次数限制</value>
+  </data>
+  <data name="LIMIT_PLUS_TIME_PERIOD" xml:space="preserve">
+    <value>使用次数及时间限制</value>
+  </data>
+  <data name="MANUAL_ENTRY" xml:space="preserve">
+    <value>手动输入</value>
+  </data>
+  <data name="MANUAL_ID_CANCELLED" xml:space="preserve">
+    <value>取消手动输入ID</value>
+  </data>
+  <data name="MODIFY_USER" xml:space="preserve">
+    <value>修改用户设置</value>
+  </data>
+  <data name="MULTIPLE_FINGERPRINT_MATCHES" xml:space="preserve">
+    <value>指纹与多个用户匹配. 
+请重试</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="NEW_ADMIN_EMAIL" xml:space="preserve">
+    <value>输入新管理员电子邮箱</value>
+  </data>
+  <data name="NEW_ADMIN_TXT_NUMBER" xml:space="preserve">
+    <value>输入管理员手机号</value>
+  </data>
+  <data name="NEW_NUMBER_CANCELLED" xml:space="preserve">
+    <value>新访问码输入被取消</value>
+  </data>
+  <data name="NEW_PASSWORD_CANCELLED" xml:space="preserve">
+    <value>新管理员密码输入被
+取消</value>
+  </data>
+  <data name="NEW_SCAN_FINGERPRINT" xml:space="preserve">
+    <value>请扫描新指纹以登记</value>
+  </data>
+  <data name="NOT_AVAILABLE" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="NO_EMPTY_DATA" xml:space="preserve">
+    <value>不接受空数据</value>
+  </data>
+  <data name="OFF" xml:space="preserve">
+    <value>大写字母锁定[关]</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="OLD_PRINTS_CLEARED" xml:space="preserve">
+    <value>清除原有指纹</value>
+  </data>
+  <data name="ON" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="OPENING_BOX" xml:space="preserve">
+    <value>打开箱子</value>
+  </data>
+  <data name="OPEN_ALL_DOORS" xml:space="preserve">
+    <value>打开所有门</value>
+  </data>
+  <data name="OPEN_BOX_DOOR" xml:space="preserve">
+    <value>打开箱门</value>
+  </data>
+  <data name="OPEN_DOOR" xml:space="preserve">
+    <value>开门</value>
+  </data>
+  <data name="OPEN_DOORS" xml:space="preserve">
+    <value>开门</value>
+  </data>
+  <data name="OPEN_DOOR_DELAY" xml:space="preserve">
+    <value>延迟开门</value>
+  </data>
+  <data name="OPEN_RELAY_ERROR" xml:space="preserve">
+    <value>钥匙箱开关控制出错误</value>
+  </data>
+  <data name="OPERATION_TIMED_OUT" xml:space="preserve">
+    <value>操作超时</value>
+  </data>
+  <data name="OTHER_DATA" xml:space="preserve">
+    <value>其它数据</value>
+  </data>
+  <data name="OUT_OF_STOCK_EBIKE" xml:space="preserve">
+    <value>电动自行车已无货. 
+您是否希望租一辆
+普通自行车？</value>
+  </data>
+  <data name="OUT_OF_STOCK_NORMAL_BIKE" xml:space="preserve">
+    <value>普通自行车已无货. 
+您是否希望租一辆
+电动自行车？</value>
+  </data>
+  <data name="PAGE_DOWN" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="PAGE_UP" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="PASSWORD_LENGTH_ERROR" xml:space="preserve">
+    <value>密码长度须在</value>
+  </data>
+  <data name="PASSWORD_LENGTH_ERROR_2" xml:space="preserve">
+    <value>字符以内</value>
+  </data>
+  <data name="PHONE" xml:space="preserve">
+    <value>用户电话</value>
+  </data>
+  <data name="PHONE_NUMBER" xml:space="preserve">
+    <value>电话号码</value>
+  </data>
+  <data name="PLACE_ENROLLED_FINGER" xml:space="preserve">
+    <value>将登记手指放在电
+子生物扫描设备上</value>
+  </data>
+  <data name="PREPARING_RFID_SCANNER_WAIT" xml:space="preserve">
+    <value>正在启用RFID扫描
+设备，请稍候…</value>
+  </data>
+  <data name="PRESS_BUTTON_MODIFY_BOX" xml:space="preserve">
+    <value>修改钥匙箱信息</value>
+  </data>
+  <data name="PRESS_MODIFY_USER" xml:space="preserve">
+    <value>按下按钮修改用户信息</value>
+  </data>
+  <data name="PROCESSING_ID" xml:space="preserve">
+    <value>ID处理中…现在
+请移开ID</value>
+  </data>
+  <data name="PROCESSING_ID_ERROR" xml:space="preserve">
+    <value>处理ID时出错</value>
+  </data>
+  <data name="READ_COUNT" xml:space="preserve">
+    <value>读数</value>
+  </data>
+  <data name="REPORT_CAR_DAMAGE" xml:space="preserve">
+    <value>离开前检查并在表格
+上汇报车辆受损情况</value>
+  </data>
+  <data name="RESERVATION_CONFIRMATION_TIMEOUT" xml:space="preserve">
+    <value>预订确认超时</value>
+  </data>
+  <data name="RESERVATION_NOT_FOUND" xml:space="preserve">
+    <value>未找到预订信息.请再
+次尝试或联系管理员</value>
+  </data>
+  <data name="RESERVATION_VERIFICATION_ERROR" xml:space="preserve">
+    <value>我们无法验证您的预
+订信息. 请联系管理员</value>
+  </data>
+  <data name="RETURN" xml:space="preserve">
+    <value>取/还钥匙</value>
+  </data>
+  <data name="RETURN_KEY_CLOSE_DOOR" xml:space="preserve">
+    <value>请归还钥匙并关紧箱门</value>
+  </data>
+  <data name="RFID_DATA_ERROR" xml:space="preserve">
+    <value>RFID数据错误</value>
+  </data>
+  <data name="RFID_INFO_DISPLAY" xml:space="preserve">
+    <value>显示RFID信息</value>
+  </data>
+  <data name="RFID_NUMBER_CANCELLED" xml:space="preserve">
+    <value>新RFID号码输入已取消</value>
+  </data>
+  <data name="RFID_SCAN" xml:space="preserve">
+    <value>RFID扫描</value>
+  </data>
+  <data name="RFID_TAG" xml:space="preserve">
+    <value>RFID标签</value>
+  </data>
+  <data name="RFID_TAG_FOUND" xml:space="preserve">
+    <value>找到RFID标签</value>
+  </data>
+  <data name="RFID_TAG_NOT_DETECTED" xml:space="preserve">
+    <value>未检测到RFID标签</value>
+  </data>
+  <data name="RFID_TAG_NOT_FOUND" xml:space="preserve">
+    <value>未检测到箱子的RFID
+标签</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SAVING_FINGERPRINTS" xml:space="preserve">
+    <value>指纹数据储存中</value>
+  </data>
+  <data name="SCAN" xml:space="preserve">
+    <value>扫描</value>
+  </data>
+  <data name="SCANNING" xml:space="preserve">
+    <value>扫描中</value>
+  </data>
+  <data name="SCANNING_FOR_RFID_TAG" xml:space="preserve">
+    <value>扫描RFID</value>
+  </data>
+  <data name="SCANNING_ID_ERROR" xml:space="preserve">
+    <value>扫描ID出错：交易取消</value>
+  </data>
+  <data name="SCANNING_WAIT" xml:space="preserve">
+    <value>请稍候，正在扫描ID</value>
+  </data>
+  <data name="SCAN_ATTEMPTS" xml:space="preserve">
+    <value>尝试扫描</value>
+  </data>
+  <data name="SCAN_ENROLLED_FINGERPRINT" xml:space="preserve">
+    <value>扫描已生物登记过
+的指纹</value>
+  </data>
+  <data name="SCAN_FINGERPRINT" xml:space="preserve">
+    <value>点击“扫描”开始指
+纹识别</value>
+  </data>
+  <data name="SCAN_HID_CARD" xml:space="preserve">
+    <value>扫描HID卡</value>
+  </data>
+  <data name="SCAN_LENGTH" xml:space="preserve">
+    <value>扫描秒数</value>
+  </data>
+  <data name="SCAN_LENGTH_ERROR" xml:space="preserve">
+    <value>扫描时间需保持最少1秒</value>
+  </data>
+  <data name="SCAN_LICENSE_FACING_IN" xml:space="preserve">
+    <value>把驾照置于扫描仪上，
+照片底部向里，
+驾照正面朝玻璃。</value>
+  </data>
+  <data name="SCAN_LICENSE_FACING_OUT" xml:space="preserve">
+    <value>把驾照置于扫描仪上，
+照片底部向外，
+驾照背面朝玻璃。</value>
+  </data>
+  <data name="SCAN_NUMBER" xml:space="preserve">
+    <value>RFID标签扫描顺序</value>
+  </data>
+  <data name="SCAN_TIMED_OUT" xml:space="preserve">
+    <value>扫描超时 </value>
+  </data>
+  <data name="SELECT_ACCESS_METHOD" xml:space="preserve">
+    <value>选择访问方法 </value>
+  </data>
+  <data name="SELECT_DATE" xml:space="preserve">
+    <value>选择 日期</value>
+  </data>
+  <data name="SENDING_EMAIL_RECEIPT" xml:space="preserve">
+    <value>发送电子邮件确
+认函至用户</value>
+  </data>
+  <data name="SENDING_TRANSACTION_HISTORY" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SENDING_TXTMSG_RECEIPT" xml:space="preserve">
+    <value>发送短信确认
+函至用户</value>
+  </data>
+  <data name="SERVICE_MGR_PHONE_NUMBER" xml:space="preserve">
+    <value>服务经理的电话</value>
+  </data>
+  <data name="SET_BOX_NUMBER_ACCESS_RESTRICTIONS" xml:space="preserve">
+    <value>为箱号设置访问次数
+或时间限制</value>
+  </data>
+  <data name="SET_END_TIME" xml:space="preserve">
+    <value>设置结束时间</value>
+  </data>
+  <data name="SET_LIMITED_USES" xml:space="preserve">
+    <value>设置使用次数限制</value>
+  </data>
+  <data name="SET_START_TIME" xml:space="preserve">
+    <value>设置开始时间</value>
+  </data>
+  <data name="SET_USER_ACCESS_RESTRICTIONS" xml:space="preserve">
+    <value>为用户设置访问时间
+或次数限制</value>
+  </data>
+  <data name="START_BOX_GREATER_END_BOX" xml:space="preserve">
+    <value>错误：起始箱号大于
+结尾箱号</value>
+  </data>
+  <data name="START_DATE_LATER" xml:space="preserve">
+    <value>错误：起始日期晚于
+结束日期</value>
+  </data>
+  <data name="START_DOOR_NUMBER" xml:space="preserve">
+    <value>起始门号</value>
+  </data>
+  <data name="START_TIME" xml:space="preserve">
+    <value>起始时间</value>
+  </data>
+  <data name="SWIPE_CARD" xml:space="preserve">
+    <value>刷卡</value>
+  </data>
+  <data name="TAG_ID" xml:space="preserve">
+    <value>标签ID</value>
+  </data>
+  <data name="TAKE" xml:space="preserve">
+    <value>领取</value>
+  </data>
+  <data name="TAKE_KEY_CLOSE_DOOR" xml:space="preserve">
+    <value>请取走钥匙并关紧柜门</value>
+  </data>
+  <data name="TEXT_FAILED" xml:space="preserve">
+    <value>文本发送失败，副本已
+保存在本地，请联
+系管理员。谢谢</value>
+  </data>
+  <data name="TEXT_MESSAGE_CANCELLED" xml:space="preserve">
+    <value>用户取消文本接收</value>
+  </data>
+  <data name="TEXT_MESSAGE_TIMEOUT" xml:space="preserve">
+    <value>用户文本接收超时</value>
+  </data>
+  <data name="TEXT_SUCCESSFUL" xml:space="preserve">
+    <value>文本发送成功</value>
+  </data>
+  <data name="TIME_PERIOD" xml:space="preserve">
+    <value>钥匙箱或用户有时
+间限制</value>
+  </data>
+  <data name="TIME_PERIOD_LIMITED_USES" xml:space="preserve">
+    <value>钥匙箱或用户有时
+间及使用次数限制</value>
+  </data>
+  <data name="TRANSACTIONS_COPIED" xml:space="preserve">
+    <value>信号传输信息已复制</value>
+  </data>
+  <data name="TRANSACTIONS_COPY_ERROR" xml:space="preserve">
+    <value>信号传输信息复制错误 </value>
+  </data>
+  <data name="TRANSACTION_CANCELLED" xml:space="preserve">
+    <value>信号传输已取消</value>
+  </data>
+  <data name="TRANSACTION_DISPLAY" xml:space="preserve">
+    <value>显示所有最近箱
+门开启状态</value>
+  </data>
+  <data name="USB_NOT_DETECTED" xml:space="preserve">
+    <value>未检测到USB</value>
+  </data>
+  <data name="USB_TRANS_IMPORT" xml:space="preserve">
+    <value>USB交易数据导入</value>
+  </data>
+  <data name="USER" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="USER_ADDED" xml:space="preserve">
+    <value>用户已添加</value>
+  </data>
+  <data name="USER_ID" xml:space="preserve">
+    <value>用户ID</value>
+  </data>
+  <data name="USER_MANAGEMENT" xml:space="preserve">
+    <value>用户管理</value>
+  </data>
+  <data name="USER_NOT_EXIST" xml:space="preserve">
+    <value>此用户不存在</value>
+  </data>
+  <data name="USER_TYPE" xml:space="preserve">
+    <value>用户类型</value>
+  </data>
+  <data name="USE_CHANGE_ADMIN_PWORD" xml:space="preserve">
+    <value>请点击“更改管理员
+密码”键重试</value>
+  </data>
+</root>

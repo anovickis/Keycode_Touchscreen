@@ -1,0 +1,1042 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCESS" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="ACCESS_AND_CARD" xml:space="preserve">
+    <value>Access and Card</value>
+  </data>
+  <data name="ACCESS_CODE" xml:space="preserve">
+    <value>Access Code</value>
+  </data>
+  <data name="ACCESS_CODE_NOT_FOUND" xml:space="preserve">
+    <value>Access Code Not Found</value>
+  </data>
+  <data name="ACCESS_CODE_NO_USER" xml:space="preserve">
+    <value>There is no user
+assigned to this
+access code.</value>
+  </data>
+  <data name="ACCESS_CODE_ONLY" xml:space="preserve">
+    <value>Access Code Only</value>
+  </data>
+  <data name="ACCESS_METHOD" xml:space="preserve">
+    <value>Access Method</value>
+  </data>
+  <data name="ACCESS_RESTRICTIONS" xml:space="preserve">
+    <value>Access Restrictions</value>
+  </data>
+  <data name="ACCESS_RESTRICTION_TYPE" xml:space="preserve">
+    <value>Access Restriction Type</value>
+  </data>
+  <data name="ADD_ANOTHER_USER" xml:space="preserve">
+    <value>Add Another
+User</value>
+  </data>
+  <data name="ADD_USER" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="ADMIN_EMAIL_ADDRESS" xml:space="preserve">
+    <value>Change Admin Email</value>
+  </data>
+  <data name="ADMIN_PASSWORD" xml:space="preserve">
+    <value>Admin Password</value>
+  </data>
+  <data name="ADMIN_PHONE_NUMBER" xml:space="preserve">
+    <value>Service Manager Number</value>
+  </data>
+  <data name="ADMIN_TASKS" xml:space="preserve">
+    <value>Administrative Tasks</value>
+  </data>
+  <data name="ADMIN_TEXT_NUMBER" xml:space="preserve">
+    <value>Change Admin TextMsg Number</value>
+  </data>
+  <data name="AGAIN_SCAN_FINGERPRINT" xml:space="preserve">
+    <value>Please Scan The
+Same Finger Again
+For Enrollment
+Scan Count = </value>
+  </data>
+  <data name="ALWAYS_ON" xml:space="preserve">
+    <value>Always On</value>
+  </data>
+  <data name="APPLY_CHANGES" xml:space="preserve">
+    <value>Apply Changes</value>
+  </data>
+  <data name="ASK_TEXT_MESSAGE_1" xml:space="preserve">
+    <value>Would You Like To</value>
+  </data>
+  <data name="ASK_TEXT_MESSAGE_2" xml:space="preserve">
+    <value>Receive A Text Receipt?</value>
+  </data>
+  <data name="BACKSPACE" xml:space="preserve">
+    <value>BkSp</value>
+  </data>
+  <data name="BARCODE_SCANNING_ERROR" xml:space="preserve">
+    <value>Barcode Scanning Error:
+No Barcode Data Scanned</value>
+  </data>
+  <data name="BIKE" xml:space="preserve">
+    <value>Bike</value>
+  </data>
+  <data name="BIKE_CHOOSE" xml:space="preserve">
+    <value>Please Choose A Type
+Of Bike</value>
+  </data>
+  <data name="BIOMETRIC_ENROLLMENT" xml:space="preserve">
+    <value>Biometric Enrollment</value>
+  </data>
+  <data name="BOX_ACCESS" xml:space="preserve">
+    <value>Set Box Access</value>
+  </data>
+  <data name="BOX_INFO" xml:space="preserve">
+    <value>View Box Info</value>
+  </data>
+  <data name="BOX_LOCATION_NOT_SET" xml:space="preserve">
+    <value>Box location not set</value>
+  </data>
+  <data name="BOX_NUMBER" xml:space="preserve">
+    <value>Box Number</value>
+  </data>
+  <data name="BOX_NUMBER_NOT_EXIST" xml:space="preserve">
+    <value>Box number does
+not exist</value>
+  </data>
+  <data name="BUTTON_START" xml:space="preserve">
+    <value>Press Screen To Start</value>
+  </data>
+  <data name="CABINET_BOX_ACCESS" xml:space="preserve">
+    <value>Cabinet Box Access</value>
+  </data>
+  <data name="CABINET_DOOR_TRANSACTIONS" xml:space="preserve">
+    <value>Cabinet Door Transactions</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CANCELLED" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="CAPITALS_LOCK" xml:space="preserve">
+    <value>Caps</value>
+  </data>
+  <data name="CARD_NUMBER" xml:space="preserve">
+    <value>Card Number</value>
+  </data>
+  <data name="CARD_READ_CANCELLED" xml:space="preserve">
+    <value>Swipe Cancelled
+Try Again</value>
+  </data>
+  <data name="CARD_READ_FAILED" xml:space="preserve">
+    <value>Card not read
+Try Again</value>
+  </data>
+  <data name="CARD_READ_TIMEOUT" xml:space="preserve">
+    <value>Timed out
+Try Again</value>
+  </data>
+  <data name="CARD_SWIPE_ERROR" xml:space="preserve">
+    <value>Scan error:
+Try again</value>
+  </data>
+  <data name="CHANGE_ADMIN_PWORD" xml:space="preserve">
+    <value>Change Admin Password</value>
+  </data>
+  <data name="CHANGE_PASSWORD" xml:space="preserve">
+    <value>Change
+Password</value>
+  </data>
+  <data name="CHOOSE_IMPORT_FILE" xml:space="preserve">
+    <value>Choose .csv or .xml File for Importing</value>
+  </data>
+  <data name="CLEAR_ENROLLED_FINGERPRINTS" xml:space="preserve">
+    <value>Clear Enrolled Fingerprints</value>
+  </data>
+  <data name="CLEAR_FINGERPRINT_QUESTION" xml:space="preserve">
+    <value>Fingerprints Found
+With Another ID.
+Clear Old Prints?</value>
+  </data>
+  <data name="CLEAR_SCAN_TABLE" xml:space="preserve">
+    <value>Clear Scan Table</value>
+  </data>
+  <data name="COMMUNICATING_WITH_SERVER" xml:space="preserve">
+    <value>Communicating with
+Server...</value>
+  </data>
+  <data name="CONFIGURATION_APP_ERROR" xml:space="preserve">
+    <value>Unrecoverable Error running application</value>
+  </data>
+  <data name="CONFIGURATION_FILE_ERROR" xml:space="preserve">
+    <value>Unrecoverable Error in configuration file</value>
+  </data>
+  <data name="CONFIGURATION_OPEN_PORT_ERROR" xml:space="preserve">
+    <value>Unrecoverable Error in  opening ports</value>
+  </data>
+  <data name="CONFIGURATION_RFID_ERROR_1" xml:space="preserve">
+    <value>RFID Error in configuration file</value>
+  </data>
+  <data name="CONFIGURATION_RFID_ERROR_2" xml:space="preserve">
+    <value>WARNING:If you do not exit, additional program errors may occur.
+Do you want to Continue?</value>
+  </data>
+  <data name="CONFIRM" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="CONFIRM_LICENSE" xml:space="preserve">
+    <value>
+
+Is License Number Correct?
+</value>
+  </data>
+  <data name="CONFIRM_NAME" xml:space="preserve">
+    <value>
+Is This Name Correct?
+</value>
+  </data>
+  <data name="CONTINUE" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="CREDIT_CARD_ONLY" xml:space="preserve">
+    <value>Credit Card Only</value>
+  </data>
+  <data name="CURRENT_ACCESS" xml:space="preserve">
+    <value>Current Access: </value>
+  </data>
+  <data name="DATABASE_ERROR" xml:space="preserve">
+    <value>Database Error.
+Try Again or Please Call
+</value>
+  </data>
+  <data name="DATA_FILE_ERRORS_NOT_EXIST" xml:space="preserve">
+    <value>Data File Contains Errors
+Or Does Not Exist.</value>
+  </data>
+  <data name="DATA_FILE_HAS_ERRORS" xml:space="preserve">
+    <value>Data File Contains Errors.</value>
+  </data>
+  <data name="DATA_FILE_NOT_EXIST" xml:space="preserve">
+    <value>Data File Does Not Exist.</value>
+  </data>
+  <data name="DATA_LENGTH_ERROR" xml:space="preserve">
+    <value>Data Must Be</value>
+  </data>
+  <data name="DATA_LENGTH_ERROR_2" xml:space="preserve">
+    <value>
+Characters Long</value>
+  </data>
+  <data name="DATA_UPDATE_ERROR" xml:space="preserve">
+    <value>Data Update Thread Error</value>
+  </data>
+  <data name="DATA_VIEW_THREAD_ERROR" xml:space="preserve">
+    <value>Data View Set 
+Thread Error</value>
+  </data>
+  <data name="DELETE_USER" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+  <data name="DEPARTMENT" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="DOOR_TIMEFRAME_BOX_ERROR" xml:space="preserve">
+    <value>This box's timeframe
+has not arrived yet.
+Door opening cancelled.</value>
+  </data>
+  <data name="DOOR_TIMEFRAME_BOX_ERROR_2" xml:space="preserve">
+    <value>This box's timeframe
+has already passed.
+Door opening cancelled.</value>
+  </data>
+  <data name="DOOR_TIMEFRAME_USER_ERROR" xml:space="preserve">
+    <value>This user's timeframe
+has not arrived yet.
+Door opening cancelled.</value>
+  </data>
+  <data name="DOOR_TIMEFRAME_USER_ERROR_2" xml:space="preserve">
+    <value>This user's timeframe
+has already passed.
+Door opening cancelled.</value>
+  </data>
+  <data name="DOOR_USAGES_BOX_ERROR" xml:space="preserve">
+    <value>This box has no more
+usages available.
+Door opening cancelled.</value>
+  </data>
+  <data name="DOOR_USAGES_USER_ERROR" xml:space="preserve">
+    <value>This user has no more
+usages available.
+Door opening cancelled.</value>
+  </data>
+  <data name="DRIVER_FIRST_NAME" xml:space="preserve">
+    <value>Enter Driver's First Name</value>
+  </data>
+  <data name="DRIVER_LAST_NAME" xml:space="preserve">
+    <value>Enter Driver's Last Name</value>
+  </data>
+  <data name="DRIVER_NUMBER" xml:space="preserve">
+    <value>Enter Driver's License Number</value>
+  </data>
+  <data name="EBIKE" xml:space="preserve">
+    <value>EBike</value>
+  </data>
+  <data name="EMAIL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EMAIL_ADDRESS" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="EMAIL_ADDRESS_NOT_FORMATTED" xml:space="preserve">
+    <value>Email Address Not
+Formatted Properly</value>
+  </data>
+  <data name="EMAIL_FAILED" xml:space="preserve">
+    <value>Email Failed.
+Local Copy Stored.
+Contact Admin.
+Thank You</value>
+  </data>
+  <data name="EMAIL_SUCCESSFUL" xml:space="preserve">
+    <value>Email Successful
+
+Thank You.</value>
+  </data>
+  <data name="EMAIL_TRANSACTIONS_FAILED" xml:space="preserve">
+    <value>Transaction History
+Failed
+Contact Admin.
+Thank You</value>
+  </data>
+  <data name="EMAIL_TRANSACTIONS_SUCCESSFUL" xml:space="preserve">
+    <value>Transaction History
+Successful
+Thank You</value>
+  </data>
+  <data name="EMAIL_TRANSACTION_REPORT" xml:space="preserve">
+    <value>Email Transaction Report</value>
+  </data>
+  <data name="END_DOOR_NUMBER" xml:space="preserve">
+    <value>Ending Door Number</value>
+  </data>
+  <data name="END_TIME" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="ENROLLED_FINGERPRINT_COUNT" xml:space="preserve">
+    <value>Number of Enrolled
+Fingerprints For
+User ID: </value>
+  </data>
+  <data name="ENROLL_FINGERPRINTS" xml:space="preserve">
+    <value>Enroll New Fingerprint</value>
+  </data>
+  <data name="ENTER" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="ENTER_ACCESS_CODE" xml:space="preserve">
+    <value>Enter
+Access
+Code</value>
+  </data>
+  <data name="ENTER_BOX_NUMBER" xml:space="preserve">
+    <value>Enter
+Box
+Number</value>
+  </data>
+  <data name="ENTER_CARD_NUMBER" xml:space="preserve">
+    <value>Enter
+Card
+Number</value>
+  </data>
+  <data name="ENTER_CODE" xml:space="preserve">
+    <value>Enter
+Code To
+Change</value>
+  </data>
+  <data name="ENTER_DEPARTMENT_NAME" xml:space="preserve">
+    <value>Enter Department Name</value>
+  </data>
+  <data name="ENTER_DOOR_DELAY" xml:space="preserve">
+    <value>Enter
+Door
+Delay</value>
+  </data>
+  <data name="ENTER_EMAIL_ADDRESS" xml:space="preserve">
+    <value>Enter Email Address</value>
+  </data>
+  <data name="ENTER_END_DOOR" xml:space="preserve">
+    <value>Enter
+End
+Door</value>
+  </data>
+  <data name="ENTER_END_TIME" xml:space="preserve">
+    <value>Enter
+End
+Time</value>
+  </data>
+  <data name="ENTER_FIRST_NAME" xml:space="preserve">
+    <value>Enter First Name</value>
+  </data>
+  <data name="ENTER_GROUP_NAME" xml:space="preserve">
+    <value>Enter Group Name</value>
+  </data>
+  <data name="ENTER_ID" xml:space="preserve">
+    <value>Enter ID</value>
+  </data>
+  <data name="ENTER_LAST_NAME" xml:space="preserve">
+    <value>Enter Last Name</value>
+  </data>
+  <data name="ENTER_LICENSE_NUMBER" xml:space="preserve">
+    <value>Enter Driver's License Number</value>
+  </data>
+  <data name="ENTER_LIMITED_USES" xml:space="preserve">
+    <value>Enter
+Limited
+ Uses</value>
+  </data>
+  <data name="ENTER_NEW_CODE" xml:space="preserve">
+    <value>Enter
+New
+Code</value>
+  </data>
+  <data name="ENTER_NEW_ID" xml:space="preserve">
+    <value>Enter New ID</value>
+  </data>
+  <data name="ENTER_ODOMETER_READING" xml:space="preserve">
+    <value>Enter Car
+Odometer
+Reading</value>
+  </data>
+  <data name="ENTER_OPERATOR_NUMBER" xml:space="preserve">
+    <value>Enter
+Operator
+Number</value>
+  </data>
+  <data name="ENTER_PHONE_NUMBER" xml:space="preserve">
+    <value>Enter
+Phone
+Number</value>
+  </data>
+  <data name="ENTER_RFID_TAG" xml:space="preserve">
+    <value>Enter RFID Tag Number</value>
+  </data>
+  <data name="ENTER_START_DOOR" xml:space="preserve">
+    <value>Enter
+Start
+Door</value>
+  </data>
+  <data name="ENTER_START_TIME" xml:space="preserve">
+    <value>Enter
+Start
+Time</value>
+  </data>
+  <data name="ENTER_USER_ID" xml:space="preserve">
+    <value>Enter User ID</value>
+  </data>
+  <data name="ENTER_USER_ID_DELETE" xml:space="preserve">
+    <value>Enter User ID to be Deleted</value>
+  </data>
+  <data name="ENTER_USER_ID_MODIFY" xml:space="preserve">
+    <value>Enter ID of User to be Modified</value>
+  </data>
+  <data name="ENTER_VEHICLE_NUMBER" xml:space="preserve">
+    <value>Enter
+Vehicle
+Number</value>
+  </data>
+  <data name="EXIT" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="FILL_OUT_MILEAGE_FORM" xml:space="preserve">
+    <value>Each vehicle contains a
+yellow folder with vehicle
+assigned mileage logs.
+Drivers are required to fill
+the log out completely
+for each driving day</value>
+  </data>
+  <data name="FINGERPRINTS_CLEARED" xml:space="preserve">
+    <value>Fingerprints Cleared</value>
+  </data>
+  <data name="FINGERPRINT_FAILED" xml:space="preserve">
+    <value>Fingerprint Match
+Failed</value>
+  </data>
+  <data name="FINGERPRINT_MATCHED" xml:space="preserve">
+    <value>Fingerprint Match
+Successful</value>
+  </data>
+  <data name="FIRST_NAME" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="GROUP" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="HIDDEN_EXIT_KEYPAD_MESSAGE" xml:space="preserve">
+    <value>Enter
+Code</value>
+  </data>
+  <data name="ID_BIOMETRIC_ENROLLING" xml:space="preserve">
+    <value>Enter User ID For Biometric Enrolling</value>
+  </data>
+  <data name="ID_NUMBER" xml:space="preserve">
+    <value>ID #</value>
+  </data>
+  <data name="ID_NUM_NOT_UNIQUE" xml:space="preserve">
+    <value>ID Number not unique</value>
+  </data>
+  <data name="ID_SCANNER_ERROR" xml:space="preserve">
+    <value>ID Scanner Error</value>
+  </data>
+  <data name="ID_SCAN_CONFIRMED" xml:space="preserve">
+    <value>ID Scan Confirmed
+Please Remove License</value>
+  </data>
+  <data name="ID_SCAN_TIMED_OUT" xml:space="preserve">
+    <value>ID Scan Timed Out</value>
+  </data>
+  <data name="IMPORTING" xml:space="preserve">
+    <value>Importing...</value>
+  </data>
+  <data name="IMPORT_COMPLETE" xml:space="preserve">
+    <value>Import Complete
+Remove USB Drive.</value>
+  </data>
+  <data name="IMPORT_QUESTION" xml:space="preserve">
+    <value>Importing Access Code
+data or User data?</value>
+  </data>
+  <data name="INFORMATION" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="INSERT_USB_DRIVE" xml:space="preserve">
+    <value>Insert USB Drive</value>
+  </data>
+  <data name="INVALID_ACCESS_TYPE" xml:space="preserve">
+    <value>Invalid access type</value>
+  </data>
+  <data name="INVALID_BOX_NUMBER" xml:space="preserve">
+    <value>Invalid box number
+Try Again</value>
+  </data>
+  <data name="INVALID_LOCATION" xml:space="preserve">
+    <value>Invalid Location
+Try Again</value>
+  </data>
+  <data name="INVALID_PASSWORD" xml:space="preserve">
+    <value>Invalid Password</value>
+  </data>
+  <data name="INVALID_TIME" xml:space="preserve">
+    <value>Invalid Time</value>
+  </data>
+  <data name="LAST_NAME" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="LIMITED_NUMBER_OF_USES" xml:space="preserve">
+    <value>Limited Number of Uses</value>
+  </data>
+  <data name="LIMITED_USES" xml:space="preserve">
+    <value>Limited Num. of Uses</value>
+  </data>
+  <data name="LIMIT_PLUS_TIME_PERIOD" xml:space="preserve">
+    <value>Limit + Time Period</value>
+  </data>
+  <data name="MANUAL_ENTRY" xml:space="preserve">
+    <value>Manual Entry</value>
+  </data>
+  <data name="MANUAL_ID_CANCELLED" xml:space="preserve">
+    <value>Manual ID Entry Cancelled</value>
+  </data>
+  <data name="MODIFY_USER" xml:space="preserve">
+    <value>Modify User</value>
+  </data>
+  <data name="MULTIPLE_FINGERPRINT_MATCHES" xml:space="preserve">
+    <value>Multiple Users Match
+Fingerprint. Try Again</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NEW_ADMIN_EMAIL" xml:space="preserve">
+    <value>Enter New Admin Email</value>
+  </data>
+  <data name="NEW_ADMIN_TXT_NUMBER" xml:space="preserve">
+    <value>Enter Admin Text Message Number</value>
+  </data>
+  <data name="NEW_NUMBER_CANCELLED" xml:space="preserve">
+    <value>New number cancelled</value>
+  </data>
+  <data name="NEW_PASSWORD_CANCELLED" xml:space="preserve">
+    <value>New Password Cancelled</value>
+  </data>
+  <data name="NEW_SCAN_FINGERPRINT" xml:space="preserve">
+    <value>Please Scan A New
+Finger For Enrollment</value>
+  </data>
+  <data name="NOT_AVAILABLE" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="NO_EMPTY_DATA" xml:space="preserve">
+    <value>Empty Data Not Accepted</value>
+  </data>
+  <data name="OFF" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OLD_PRINTS_CLEARED" xml:space="preserve">
+    <value>Old Prints Cleared</value>
+  </data>
+  <data name="ON" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="OPENING_BOX" xml:space="preserve">
+    <value>Opening Box</value>
+  </data>
+  <data name="OPEN_ALL_DOORS" xml:space="preserve">
+    <value>Open All Doors</value>
+  </data>
+  <data name="OPEN_BOX_DOOR" xml:space="preserve">
+    <value>Open Box Door</value>
+  </data>
+  <data name="OPEN_DOOR" xml:space="preserve">
+    <value>Open Door</value>
+  </data>
+  <data name="OPEN_DOORS" xml:space="preserve">
+    <value>Open Doors</value>
+  </data>
+  <data name="OPEN_DOOR_DELAY" xml:space="preserve">
+    <value>Open Door Delay</value>
+  </data>
+  <data name="OPEN_RELAY_ERROR" xml:space="preserve">
+    <value>Error opening and closing relay - location: </value>
+  </data>
+  <data name="OPERATION_TIMED_OUT" xml:space="preserve">
+    <value>Operation Timed Out</value>
+  </data>
+  <data name="OTHER_DATA" xml:space="preserve">
+    <value>Other Data</value>
+  </data>
+  <data name="OUT_OF_STOCK_EBIKE" xml:space="preserve">
+    <value>EBikes Are Out Of
+Stock. Would You Like To
+Rent An Normal Bike?</value>
+  </data>
+  <data name="OUT_OF_STOCK_NORMAL_BIKE" xml:space="preserve">
+    <value>Normal Bikes Are Out Of
+Stock. Would You Like To
+Rent An EBike?</value>
+  </data>
+  <data name="PAGE_DOWN" xml:space="preserve">
+    <value>Page Down</value>
+  </data>
+  <data name="PAGE_UP" xml:space="preserve">
+    <value>Page Up</value>
+  </data>
+  <data name="PASSWORD_LENGTH_ERROR" xml:space="preserve">
+    <value>Passwords must be
+</value>
+  </data>
+  <data name="PASSWORD_LENGTH_ERROR_2" xml:space="preserve">
+    <value>
+characters</value>
+  </data>
+  <data name="PHONE" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PHONE_NUMBER" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="PLACE_ENROLLED_FINGER" xml:space="preserve">
+    <value>Place Enrolled
+Finger On
+Biometric Scanner</value>
+  </data>
+  <data name="PREPARING_RFID_SCANNER_WAIT" xml:space="preserve">
+    <value>Preparing RFID
+Scanner Please Wait...</value>
+  </data>
+  <data name="PRESS_BUTTON_MODIFY_BOX" xml:space="preserve">
+    <value>Press Button to Modify Box</value>
+  </data>
+  <data name="PRESS_MODIFY_USER" xml:space="preserve">
+    <value>Press Button To Modify User Information</value>
+  </data>
+  <data name="PROCESSING_ID" xml:space="preserve">
+    <value>
+PROCESSING ID...
+
+Please Remove ID Now</value>
+  </data>
+  <data name="PROCESSING_ID_ERROR" xml:space="preserve">
+    <value>Error While Processing ID</value>
+  </data>
+  <data name="READ_COUNT" xml:space="preserve">
+    <value>Read Count</value>
+  </data>
+  <data name="REPORT_CAR_DAMAGE" xml:space="preserve">
+    <value>Inspect And Report Car
+Damage On Form Prior
+To Leaving</value>
+  </data>
+  <data name="RESERVATION_CONFIRMATION_TIMEOUT" xml:space="preserve">
+    <value>Reservation Confirmation Timed Out</value>
+  </data>
+  <data name="RESERVATION_NOT_FOUND" xml:space="preserve">
+    <value>Reservation Not Found
+Try Again or Please Call
+Administrator</value>
+  </data>
+  <data name="RESERVATION_VERIFICATION_ERROR" xml:space="preserve">
+    <value>Unfortunately we have
+been unable to verify
+ your reservation
+Please call administrator</value>
+  </data>
+  <data name="RETURN" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="RETURN_KEY_CLOSE_DOOR" xml:space="preserve">
+    <value>Return Key And Close
+Door Firmly When Done.</value>
+  </data>
+  <data name="RFID_DATA_ERROR" xml:space="preserve">
+    <value>RFID Data Error</value>
+  </data>
+  <data name="RFID_INFO_DISPLAY" xml:space="preserve">
+    <value>Display RFID Info</value>
+  </data>
+  <data name="RFID_NUMBER_CANCELLED" xml:space="preserve">
+    <value>New RFID
+number cancelled</value>
+  </data>
+  <data name="RFID_SCAN" xml:space="preserve">
+    <value>RFID Scan</value>
+  </data>
+  <data name="RFID_TAG" xml:space="preserve">
+    <value>RFID Tag</value>
+  </data>
+  <data name="RFID_TAG_FOUND" xml:space="preserve">
+    <value>RFID Tag Found</value>
+  </data>
+  <data name="RFID_TAG_NOT_DETECTED" xml:space="preserve">
+    <value>RFID Tag Not Detected</value>
+  </data>
+  <data name="RFID_TAG_NOT_FOUND" xml:space="preserve">
+    <value>No RFID Tag Found
+For Box </value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SAVING_FINGERPRINTS" xml:space="preserve">
+    <value>Saving Fingerprint
+Data</value>
+  </data>
+  <data name="SCAN" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="SCANNING" xml:space="preserve">
+    <value>Scanning...</value>
+  </data>
+  <data name="SCANNING_FOR_RFID_TAG" xml:space="preserve">
+    <value>Scanning for RFID Tag...</value>
+  </data>
+  <data name="SCANNING_ID_ERROR" xml:space="preserve">
+    <value>Error While Scanning ID:
+Transaction Cancelled</value>
+  </data>
+  <data name="SCANNING_WAIT" xml:space="preserve">
+    <value>
+
+SCANNING ID
+
+PLEASE WAIT...</value>
+  </data>
+  <data name="SCAN_ATTEMPTS" xml:space="preserve">
+    <value>Scan Attempts:</value>
+  </data>
+  <data name="SCAN_ENROLLED_FINGERPRINT" xml:space="preserve">
+    <value>Scan An Enrolled
+Finger On The
+Biometric Scanner</value>
+  </data>
+  <data name="SCAN_FINGERPRINT" xml:space="preserve">
+    <value>Press Scan to Begin
+Fingerprint </value>
+  </data>
+  <data name="SCAN_HID_CARD" xml:space="preserve">
+    <value>Scan HID Card Now</value>
+  </data>
+  <data name="SCAN_LENGTH" xml:space="preserve">
+    <value>Number Of
+Seconds
+To Scan</value>
+  </data>
+  <data name="SCAN_LENGTH_ERROR" xml:space="preserve">
+    <value>Must scan for at least
+one second</value>
+  </data>
+  <data name="SCAN_LICENSE_FACING_IN" xml:space="preserve">
+    <value>
+Place your license on the scanner, photo facing in, front of license against the glass.</value>
+  </data>
+  <data name="SCAN_LICENSE_FACING_OUT" xml:space="preserve">
+    <value>
+Place your license on the scanner, photo facing out, back of license against the glass.</value>
+  </data>
+  <data name="SCAN_NUMBER" xml:space="preserve">
+    <value>Scan #</value>
+  </data>
+  <data name="SCAN_TIMED_OUT" xml:space="preserve">
+    <value>Scan Timed Out</value>
+  </data>
+  <data name="SELECT_ACCESS_METHOD" xml:space="preserve">
+    <value>Select Access Method</value>
+  </data>
+  <data name="SELECT_DATE" xml:space="preserve">
+    <value>Select Date</value>
+  </data>
+  <data name="SENDING_EMAIL_RECEIPT" xml:space="preserve">
+    <value>Sending Email
+Receipt</value>
+  </data>
+  <data name="SENDING_TRANSACTION_HISTORY" xml:space="preserve">
+    <value>Sending Transaction
+History Report</value>
+  </data>
+  <data name="SENDING_TXTMSG_RECEIPT" xml:space="preserve">
+    <value>Sending Text
+Message Receipt</value>
+  </data>
+  <data name="SERVICE_MGR_PHONE_NUMBER" xml:space="preserve">
+    <value>Service Manager Phone Number</value>
+  </data>
+  <data name="SET_BOX_NUMBER_ACCESS_RESTRICTIONS" xml:space="preserve">
+    <value>Set Access Restrictions for Box Number </value>
+  </data>
+  <data name="SET_END_TIME" xml:space="preserve">
+    <value>Set End Time</value>
+  </data>
+  <data name="SET_LIMITED_USES" xml:space="preserve">
+    <value>Set Limited Uses</value>
+  </data>
+  <data name="SET_START_TIME" xml:space="preserve">
+    <value>Set Start Time</value>
+  </data>
+  <data name="SET_USER_ACCESS_RESTRICTIONS" xml:space="preserve">
+    <value>Set Access Restrictions for User Number </value>
+  </data>
+  <data name="START_BOX_GREATER_END_BOX" xml:space="preserve">
+    <value>Starting Box Number
+Is Greater Than Ending
+Box Number</value>
+  </data>
+  <data name="START_DATE_LATER" xml:space="preserve">
+    <value>Start date is later
+than end date</value>
+  </data>
+  <data name="START_DOOR_NUMBER" xml:space="preserve">
+    <value>Starting Door Number</value>
+  </data>
+  <data name="START_TIME" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="SWIPE_CARD" xml:space="preserve">
+    <value>Swipe Card</value>
+  </data>
+  <data name="TAG_ID" xml:space="preserve">
+    <value>Tag ID</value>
+  </data>
+  <data name="TAKE" xml:space="preserve">
+    <value>Take</value>
+  </data>
+  <data name="TAKE_KEY_CLOSE_DOOR" xml:space="preserve">
+    <value>Take Key And Close
+Door Firmly When Done.</value>
+  </data>
+  <data name="TEXT_FAILED" xml:space="preserve">
+    <value>Text Failed.
+Local Copy Stored.
+Contact Admin.
+Thank You</value>
+  </data>
+  <data name="TEXT_MESSAGE_CANCELLED" xml:space="preserve">
+    <value>User text receipt
+cancelled</value>
+  </data>
+  <data name="TEXT_MESSAGE_TIMEOUT" xml:space="preserve">
+    <value>User text receipt
+timed out</value>
+  </data>
+  <data name="TEXT_SUCCESSFUL" xml:space="preserve">
+    <value>Text Successful
+
+Thank You.</value>
+  </data>
+  <data name="TIME_PERIOD" xml:space="preserve">
+    <value>Time Period</value>
+  </data>
+  <data name="TIME_PERIOD_LIMITED_USES" xml:space="preserve">
+    <value>Time &amp; Limited Uses</value>
+  </data>
+  <data name="TRANSACTIONS_COPIED" xml:space="preserve">
+    <value>transaction files copied</value>
+  </data>
+  <data name="TRANSACTIONS_COPY_ERROR" xml:space="preserve">
+    <value>transaction file
+copy error</value>
+  </data>
+  <data name="TRANSACTION_CANCELLED" xml:space="preserve">
+    <value>Transaction Cancelled</value>
+  </data>
+  <data name="TRANSACTION_DISPLAY" xml:space="preserve">
+    <value>Display Transactions</value>
+  </data>
+  <data name="USB_NOT_DETECTED" xml:space="preserve">
+    <value>USB memory stick
+not detected</value>
+  </data>
+  <data name="USB_TRANS_IMPORT" xml:space="preserve">
+    <value>USB Data Import</value>
+  </data>
+  <data name="USER" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="USER_ADDED" xml:space="preserve">
+    <value>User added</value>
+  </data>
+  <data name="USER_ID" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="USER_MANAGEMENT" xml:space="preserve">
+    <value>User Management</value>
+  </data>
+  <data name="USER_NOT_EXIST" xml:space="preserve">
+    <value>User Does Not Exist</value>
+  </data>
+  <data name="USER_TYPE" xml:space="preserve">
+    <value>User Type</value>
+  </data>
+  <data name="USE_CHANGE_ADMIN_PWORD" xml:space="preserve">
+    <value>Use\"Change Admin Password\"
+Try Again</value>
+  </data>
+</root>
